@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zahra's Store | Amazon & E-commerce Services</title>
+<meta name="description" content="Amazon and e-commerce services including product research, sourcing, listing optimization, PPC strategy and marketplace support.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;color:#172033;background:#f7f9fc;line-height:1.6}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid #e7ebf2}
+nav{height:72px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:22px;font-weight:800;letter-spacing:-.5px}.logo span{color:#6c4df6}
+.navlinks{display:flex;gap:28px;font-size:14px;font-weight:600;color:#536078}
+.navlinks a:hover{color:#6c4df6}
+.btn{display:inline-block;background:#6c4df6;color:white;padding:13px 20px;border-radius:10px;font-weight:700;border:0;cursor:pointer}
+.btn:hover{background:#5638dd}
+.btn.light{background:#fff;color:#6c4df6;border:1px solid #ddd7ff}
+.hero{padding:95px 0 80px;background:linear-gradient(135deg,#f7f5ff 0%,#fff 55%,#f0f7ff 100%)}
+.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:55px;align-items:center}
+.badge{display:inline-block;padding:8px 13px;border-radius:999px;background:#ece8ff;color:#6044db;font-size:13px;font-weight:700;margin-bottom:18px}
+h1{font-size:clamp(42px,6vw,70px);line-height:1.05;letter-spacing:-2.5px;margin-bottom:22px}
+h1 span{color:#6c4df6}
+.hero p{font-size:19px;color:#5e697d;max-width:650px;margin-bottom:30px}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+.hero-card{background:#fff;border:1px solid #e6e9f1;border-radius:24px;padding:30px;box-shadow:0 18px 50px rgba(45,55,90,.10)}
+.avatar{width:86px;height:86px;border-radius:22px;background:#ece8ff;color:#6c4df6;display:flex;align-items:center;justify-content:center;font-size:32px;font-weight:800;margin-bottom:22px}
+.hero-card h3{font-size:23px;margin-bottom:8px}.hero-card p{font-size:15px;margin:0}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:25px}
+.stat{background:#f8f9fd;border-radius:14px;padding:14px;text-align:center}.stat strong{display:block;font-size:21px}.stat small{color:#6d7789}
+section{padding:85px 0}
+.section-head{text-align:center;max-width:700px;margin:0 auto 45px}
+.section-head h2{font-size:38px;letter-spacing:-1px;margin-bottom:10px}
+.section-head p{color:#687388}
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.service{background:#fff;border:1px solid #e8ebf2;border-radius:18px;padding:27px;transition:.2s}
+.service:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(40,50,80,.08)}
+.icon{width:45px;height:45px;border-radius:12px;background:#eeeaff;color:#6c4df6;display:flex;align-items:center;justify-content:center;font-size:21px;margin-bottom:18px}
+.service h3{margin-bottom:8px}.service p{font-size:14px;color:#687388}
+.about{background:#fff}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}
+.about h2{font-size:38px;line-height:1.15;margin-bottom:18px}.about p{color:#657084;margin-bottom:18px}
+.checks{display:grid;gap:11px;margin-top:22px}.checks div{font-weight:600}.checks span{color:#6c4df6;margin-right:8px}
+.market{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}
+.market div{padding:24px;background:#f7f8fc;border-radius:16px;text-align:center;font-weight:800}.market small{display:block;color:#778196;font-weight:400;margin-top:4px}
+.process{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.step{padding:25px;background:#fff;border:1px solid #e8ebf2;border-radius:16px}.num{color:#6c4df6;font-weight:800;font-size:14px;margin-bottom:15px}
+.contact{background:#171c2b;color:#fff}.contact .section-head p{color:#aeb6c7}
+.contact-box{max-width:760px;margin:auto;background:#22283a;border:1px solid #343b51;border-radius:20px;padding:32px}
+.contact-list{display:grid;gap:14px;margin-bottom:25px}.contact-list a{color:#fff}.contact-list a:hover{color:#a999ff}
+footer{background:#111522;color:#8f98aa;text-align:center;padding:24px;font-size:13px}
+@media(max-width:800px){
+.navlinks{display:none}.hero-grid,.about-grid{grid-template-columns:1fr}.services{grid-template-columns:1fr 1fr}.process{grid-template-columns:1fr 1fr}
+.hero{padding-top:65px}h1{font-size:48px}.hero-card{max-width:520px}
+}
+@media(max-width:520px){
+.services,.process,.market{grid-template-columns:1fr}.hero{padding:55px 0}.hero p{font-size:17px}section{padding:65px 0}
+}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<nav>
+<a class="logo" href="#home">Zahra's Store<span>.</span></a>
+<div class="navlinks">
+<a href="#services">Services</a><a href="#about">About</a><a href="#process">How I Work</a><a href="#payment">Payment</a><a href="#contact">Contact</a>
+</div>
+<a class="btn" href="#contact">Work With Me</a>
+</nav>
+</div>
+</header>
+
+<main>
+<section class="hero" id="home">
+<div class="container hero-grid">
+<div>
+<div class="badge">AMAZON & E-COMMERCE SPECIALIST</div>
+<h1>Helping businesses <span>grow on Amazon.</span></h1>
+<p>I provide practical e-commerce support across product research, product segmentation, sourcing, wholesale, listing optimization, brand approval, marketplace operations and growth strategy.</p>
+<div class="actions">
+<a class="btn" href="#contact">Let's Work Together</a>
+<a class="btn light" href="#services">View My Services</a>
+</div>
+</div>
+<div class="hero-card">
+<div class="avatar">ZM</div>
+<h3>Zahra's Store</h3>
+<p>Amazon & E-commerce Specialist focused on helping brands build stronger listings, source products and operate successfully across major marketplaces.</p>
+<div class="stats">
+<div class="stat"><strong>USA</strong><small>Marketplace</small></div>
+<div class="stat"><strong>UK</strong><small>Marketplace</small></div>
+<div class="stat"><strong>UAE</strong><small>Marketplace</small></div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="services">
+<div class="container">
+<div class="section-head"><h2>My Services</h2><p>End-to-end support for brands, sellers and businesses looking to build and improve their Amazon presence.</p></div>
+<div class="services">
+<div class="service"><div class="icon">⌕</div><h3>Product Research</h3><p>Identify promising products, evaluate competition, demand, pricing and potential opportunities.</p></div>
+<div class="service"><div class="icon">▦</div><h3>Product Segmentation</h3><p>Segment products by market, customer type, price point, demand and competition to find the right opportunity.</p></div>
+<div class="service"><div class="icon">↗</div><h3>Product Sourcing</h3><p>Supplier research, Alibaba/China sourcing, quotation comparison and communication support.</p></div>
+<div class="service"><div class="icon">◇</div><h3>Wholesale</h3><p>Basic wholesale guidance, supplier research and support in understanding wholesale opportunities on Amazon.</p></div>
+<div class="service"><div class="icon">✎</div><h3>Listing Optimization</h3><p>Improve titles, bullets, descriptions, keywords and listing structure for better visibility and conversion.</p></div>
+<div class="service"><div class="icon">✓</div><h3>Brand Approval — USA & UK</h3><p>Guidance on preparing the information and documents commonly needed for brand and marketplace approval processes.</p></div>
+<div class="service"><div class="icon">◈</div><h3>PPC & Growth Strategy</h3><p>Practical advertising and sales strategies designed around product positioning and marketplace goals.</p></div>
+<div class="service"><div class="icon">!</div><h3>Business Advice</h3><p>Practical advice for choosing products, marketplaces, business models, pricing and building an Amazon business.</p></div>
+<div class="service"><div class="icon">A</div><h3>Amazon Course Teacher</h3><p>Affordable Amazon training for beginners who want to learn step-by-step and start their e-commerce journey without expensive course fees.</p></div>
+<div class="service"><div class="icon">✓</div><h3>Amazon Operations</h3><p>Support with FBA, FBM, Easy Ship, inventory coordination and day-to-day marketplace operations.</p></div>
+<div class="service"><div class="icon">◎</div><h3>English Speaking Skills</h3><p>Practical English speaking support for communication with clients, suppliers and international business contacts.</p></div>
+</div>
+</div>
+</section>
+
+<section class="about" id="about">
+<div class="container about-grid">
+<div>
+<div class="badge">ABOUT ME</div>
+<h2>More than a listing — I focus on the whole business.</h2>
+<p>I work across the practical side of Amazon and e-commerce, from finding opportunities and communicating with suppliers to preparing listings and supporting marketplace operations.</p>
+<div class="checks">
+<div><span>✓</span> Product research, segmentation & validation</div>
+<div><span>✓</span> Supplier, sourcing & wholesale support</div>
+<div><span>✓</span> Listing content & optimization</div>
+<div><span>✓</span> Brand approval guidance for USA & UK</div>
+<div><span>✓</span> Business advice & Amazon training</div>
+<div><span>✓</span> English speaking for business communication</div>
+</div>
+</div>
+<div>
+<h3>Marketplace & Learning Support</h3>
+<p>Support for businesses targeting international Amazon marketplaces, plus affordable training for people who want to learn Amazon and get started.</p>
+<div class="market">
+<div>USA<small>Amazon.com</small></div>
+<div>UK<small>Amazon.co.uk</small></div>
+<div>UAE<small>Amazon.ae</small></div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="process">
+<div class="container">
+<div class="section-head"><h2>How I Work</h2><p>A simple process designed to understand your business first and then focus on the highest-impact work.</p></div>
+<div class="process">
+<div class="step"><div class="num">01 — DISCOVER</div><h3>Understand</h3><p>We discuss your product, marketplace and business goals.</p></div>
+<div class="step"><div class="num">02 — RESEARCH</div><h3>Analyze</h3><p>I research the market, competitors, keywords and opportunities.</p></div>
+<div class="step"><div class="num">03 — EXECUTE</div><h3>Build</h3><p>We improve sourcing, listings, content and operational setup.</p></div>
+<div class="step"><div class="num">04 — IMPROVE</div><h3>Optimize</h3><p>Review performance and continuously improve the strategy.</p></div>
+</div>
+</div>
+</section>
+
+
+<section id="payment">
+<div class="container">
+<div class="section-head"><h2>Secure Payment Options</h2><p>Convenient payment options are available for services and Amazon training.</p></div>
+<div class="services">
+<div class="service"><div class="icon">💳</div><h3>Credit Card</h3><p>Pay conveniently by credit card through a secure payment process.</p></div>
+<div class="service"><div class="icon">P</div><h3>Payoneer</h3><p>Pay through Payoneer using the payment details provided after your service is confirmed.</p></div>
+<div class="service"><div class="icon">✓</div><h3>Secure Payments</h3><p>Your payment details should be handled through secure payment channels. Payment instructions are provided directly after confirmation.</p></div>
+</div>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<div class="container">
+<div class="section-head"><h2>Let's Work Together</h2><p>Have an Amazon project, product idea or e-commerce challenge? Get in touch.</p></div>
+<div class="contact-box">
+<div class="contact-list">
+<div>📧 <a href="mailto:malikzahra821@gmail.com">malikzahra821@gmail.com</a></div>
+<div>💬 <a href="https://wa.me/923298215384" target="_blank">WhatsApp: +92 329 8215384</a></div>
+<div>🎓 <strong>Affordable Amazon Course</strong> — Learn Amazon step-by-step at a beginner-friendly cost.</div>
+</div>
+<a class="btn" href="mailto:malikzahra821@gmail.com?subject=Amazon%20E-commerce%20Project%20Inquiry">Contact Me</a>
+</div>
+</div>
+</section>
+</main>
+
+<footer>© 2026 Zahra's Store. Amazon & E-commerce Services.</footer>
+</body>
+</html>
